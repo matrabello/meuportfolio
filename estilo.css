@@ -1,0 +1,44 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+  margin-top: 20px;
+}
